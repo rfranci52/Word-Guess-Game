@@ -74,8 +74,8 @@ function work() {
 
             // keep this variable constant
 
-            var enter_a_letter2 = prompt(
-                "Please enter a letter , if you guess the word correctly, you win!") + prompt(
+            var enter_a_letter2 = prompt((
+                    "Please enter a letter , if you guess the word correctly, you win!") +
                 "This is the number of remaining letters:\n" + answer.join(" "));
             //  + prompt(
             // "hint " +
